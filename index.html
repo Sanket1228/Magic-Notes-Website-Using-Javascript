@@ -30,7 +30,8 @@
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <input class="form-control mr-sm-2" id="searchTxt" type="search" placeholder="Search"
+                    aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
         </div>
@@ -42,6 +43,8 @@
             <div class="card-body">
                 <h5 class="card-title">Welcome to Magic Notes</h5>
                 <div class="form-group">
+                    <!-- <label for="title">Title</label>
+                    <input type="text" class="form-control" id="title" placeholder="Add title"> -->
                     <label for="exampleFormControlTextarea1">Add your notes here : </label>
                     <textarea class="form-control" id="addTxt" rows="3"></textarea>
                 </div>
@@ -51,7 +54,7 @@
         <hr>
         <h1>Your Notes</h1>
         <hr>
-        <div class="row container-fluid" id="notes">         
+        <div class="row container-fluid" id="notes">
         </div>
     </div>
 
